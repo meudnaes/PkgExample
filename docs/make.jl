@@ -8,7 +8,7 @@ makedocs(;
     authors="meudnaes <eliasudnes@hotmail.com> and contributors",
     sitename="PkgExample.jl",
     format=Documenter.HTML(;
-        canonical="https://Elias.github.io/PkgExample.jl",
+        canonical="https://meudnaes.github.io/PkgExample.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -18,6 +18,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/Elias/PkgExample.jl",
+    repo="github.com/meudnaes/PkgExample.jl",
     devbranch="main",
 )
